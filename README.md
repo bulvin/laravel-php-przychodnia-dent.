@@ -16,17 +16,17 @@ PHP 8.1, Laravel, MariaDB, CSS Bootstrap
 
 Należy mieć pobrany pakiet XAMPP w wersji 8.1 – zawiera PHP w wersji 8.1 i bazę danych MariaDB.
 Również trzeba pobrać composera.
-Następnie stworzyć folder przychodnia i wypakować aplikację do tego folderu. Można otworzyć
+Następnie stworzyć folder przychodnia i wypakować aplikację do tego folderu. Utworzyć bazę danych przychodnia w PhpMyAdmin – po wejściu w XAMPPA   włączyć  usługi
+  MySQL i Apache i kliknąć MySQL admin Można otworzyć
 konsolę systemową i wykonywać następujące polecenia:
 
 ```bash
   cd przychodnia
   composer install --no-interaction
   php artisan storage:link
-  REM Utworzyć bazę przychodnia w PhpMyAdmin – po wejściu w XAMPPA   włączyć  usługi
-  MySQL i Apache i kliknąć MySQL admin
   php artisan migrate
   php artisan db:seed
   php artisan serve
-  REM http://127.0.0.1:8000
+  
 ```
+ http://127.0.0.1:8000
