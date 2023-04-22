@@ -30,3 +30,7 @@ konsolę systemową i wykonywać następujące polecenia:
   
 ```
  http://127.0.0.1:8000
+ 
+### Logowanie do systemu
+email: jan@email.com
+hasło: 1234
